@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #242222;
+}
+form{
+    display: flex;
+    gap:2px;
+    height: 27px;
+}
+form > #submitImage,#submit{
+    background-color: rgb(207, 71, 71);
+    border-radius: 10px;
+}
+#tier,#image-url{
+    padding: 5px;
+}
+h1, label{
+    color: white;
+}
+
+.tier-list{
+    margin-top: 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    height: 75px;
+}
+.heading{
+ border-right: 1px solid rgb(255, 255, 255);
+ background-color: rgb(215, 90, 90);
+ 
+ font-size: 35px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#non-tier-section{
+    display: flex;
+    gap: 3px;
+    margin-top: 20px;
+}
+.item-container{
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+
+    .tier-list-item {
+        display: flex;
+        min-width: 50%;
+        min-height: 80px;
+        gap: 3px;
+    }
+    
+    .tier-list-item img {
+        width: 75px;
+        height: 75px;
+        object-fit: contain; /* Prevent distortion */
+    }
+
+.item-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
